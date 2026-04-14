@@ -7,7 +7,7 @@ Even when the code samples aren’t executable, they demonstrate **testing logic
 
 ---
 
-## 🧩 **What This Repo Contains**
+## **What This Repo Contains**
 
 ### **1. Test Cases & Test Suites**  
 Structured manual test cases covering:  
@@ -63,33 +63,6 @@ These are **not executable**, but they show my thinking, structure, and approach
 
 ---
 
-## 🗂️ **Repository Structure**
-
-```
-/test-cases/
-    project-name/
-        feature-area/
-            test-case.md
-
-/checklists/
-    web/
-    api/
-    blender/
-    accessibility/
-    release/
-
-/bug-reports/
-    project-name/
-        issue-title.md
-
-/automation-concepts/
-    examples/
-    pseudocode/
-    folder-structures/
-```
-
----
-
 ## 🧭 **Why This Repo Exists**
 
 I’m building a career in QA with a focus on:  
@@ -103,21 +76,6 @@ This repo acts as a **public portfolio** of how I think, test, and structure qua
 
 ---
 
-## 🤝 **Projects I’ve Contributed QA To**  
-*(Add as you go — this section grows with your experience.)*
+## **Projects I’ve Contributed QA To**  
 
-- Project A — manual testing, bug reporting  
-- Project B — regression suite design  
-- Project C — exploratory testing & UX validation  
-- Blender QA (personal practice) — feature validation, UI/UX notes  
-
----
-
-## 📌 **Future Additions**
-
-- More structured regression suites  
-- API testing templates  
-- CI‑ready automation folder skeletons  
-- Test data generation strategies  
-- Cross‑browser testing notes  
-- Blender QA workflows  
+(work in progress)
