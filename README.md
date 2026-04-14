@@ -79,3 +79,28 @@ This repo acts as a **public portfolio** of how I think, test, and structure qua
 ## **Projects I’ve Contributed QA To**  
 
 (work in progress)
+
+---
+### repo format example?
+```
+/test-cases/
+    project-name/
+        feature-area/
+            test-case.md
+
+/checklists/
+    web/
+    api/
+    blender/
+    accessibility/
+    release/
+
+/bug-reports/
+    project-name/
+        issue-title.md
+
+/automation-concepts/
+    examples/
+    pseudocode/
+    folder-structures/
+```
