@@ -1,8 +1,12 @@
 
 # Issue Report
-Project: * Broken documentation links in README pointing to manual.seafile.com *
-Date Found: * 2026-04-15 *
-Date Reported: * 2026-04-15 *
+Project: *Broken documentation links in README pointing to manual.seafile.com*
+
+Date Found: *2026-04-15*
+
+Date Reported: *2026-04-15*
+
+Status: Issue Filed
 
 
 
