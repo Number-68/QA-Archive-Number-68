@@ -6,7 +6,7 @@ Date Found: *2026-04-15*
 
 Date Reported: *2026-04-15*
 
-Status: Issue Filed
+Status: Issue Closed
 
 
 
@@ -74,3 +74,4 @@ https://github.com/haiwen/seafile/issues/3025
 ## 11. Follow‑Up Notes
 
 - 2026‑04‑15 — Issue filed.
+- 2026‑04‑15 — Issue closed.
