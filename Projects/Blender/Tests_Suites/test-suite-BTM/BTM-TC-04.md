@@ -1,7 +1,7 @@
-# TC - ##: * Title *
+# TC - 04: Uninstall Theme Installed from Downloaded File
 
 # Prerequisites:
-- - Successful completion of **Test Case 1**.
+- Successful completion of **Test Case 1**.
     
 - Successful completion of **Test Case 3**
         

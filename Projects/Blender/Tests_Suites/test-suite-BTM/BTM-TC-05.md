@@ -1,12 +1,11 @@
-# TC - ##: * Title *
+# TC - 05: Uninstall Theme Installed from Get Extensions
 
 # Prerequisites:
-- - Successful completion of **Test Case 1**.
+- Successful completion of **Test Case 2**
     
 - Successful completion of **Test Case 3**
         
 - A successfully built Blender application with the binary accessible.
-
 # Test Steps:
 - **Launch Blender** from the terminal using the compiled Blender binary.
     
@@ -20,23 +19,23 @@
     
 - Open the **Theme Selection** dropdown at the top of the Themes panel.
     
-- Select the theme that was installed via **downloaded XML file** (from Test Case 1).
+- Select the theme that was installed via **Get Extensions** (from Test Case 2).
     
-- Locate the **minus (“–”) icon** next to the theme controls (Remove Custom Theme).
+- Hover over the **minus (“–”) icon** labeled _Remove Theme_.
     
 - Click the **minus icon**.
     
-- A confirmation dialog labeled **Remove Custom Theme** should appear.
+- A confirmation dialog labelled **Remove Custom Theme** should appear.
     
 - Click **Delete** to confirm removal.
 
 # Expected Results:
-- The selected custom theme should be **successfully removed**.
+- The selected custom theme installed via Get Extensions should be **successfully removed**.
     
 - Blender should immediately revert to a **default theme** (e.g., Blender Light or Blender Dark).
     
 - The removed theme should **no longer appear** in the Theme Selection dropdown.
     
-- No errors, warnings, or unexpected behavior should occur.
+- No errors, warnings, or unexpected behaviour should occur.
     
 - The UI should update instantly after deletion.
