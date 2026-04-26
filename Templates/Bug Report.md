@@ -2,6 +2,9 @@
 
 **Severity:** Critical / High / Medium / Low  
 
+Date Found: 
+Date Reported: 
+Status:
 
 ## Environment
 - **Application:** [Name and version]
@@ -32,5 +35,10 @@
 [ ] Sometimes (X/10 attempts)
 [ ] Once only
 
+
+# Hypothesis
+
+
 ## Additional Notes
-[Workarounds, related bugs, or any extra context]
+
+# Follow-Up Notes
