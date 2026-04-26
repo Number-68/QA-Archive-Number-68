@@ -23,4 +23,5 @@ Program Version: Latest source build from the official repository
 ## Approach
 Manual execution. Each test case will be run once with two separate themes: one installed via download file, the other installed from disk.
 ## Test Cases. 
-** link all the test cases here. **
+
+- [TC-01: Install Theme From File]()

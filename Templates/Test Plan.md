@@ -28,4 +28,4 @@ etc
 
 
 # Test Cases. 
-** link all the test cases here. **
+[TC-01: Install from download](./TC-01_install-from-download.md)
