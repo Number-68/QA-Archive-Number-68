@@ -24,4 +24,8 @@ Program Version: Latest source build from the official repository
 Manual execution. Each test case will be run once with two separate themes: one installed via download file, the other installed from disk.
 ## Test Cases. 
 
-- [TC-01: Install Theme From File]()
+- [TC-01: Install Theme From File](../Tests_Suites/test-suite-BTM/BTM-TC-01.md)
+- [TC-02: Install Theme From "Get Extensions"](../Tests_Suites/test-suite-BTM/BTM-TC-02.md)
+- [TC-03: Switching Between Installed Themes](../Tests_Suites/test-suite-BTM/BTM-TC-03.md)
+- [TC-04: Uninstall Theme Installed from Downloaded File](../Tests_Suites/test-suite-BTM/BTM-TC-04.md)
+- [TC-05: Uninstall Theme Installed from Get Extensions](../Tests_Suites/test-suite-BTM/BTM-TC-05.md)
