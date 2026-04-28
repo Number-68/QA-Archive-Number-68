@@ -61,7 +61,7 @@ Ensure that the `listing_downloader.RemoteAssetListingDownloader._sanitize_asse
     
 - **Execution Method:** Automated Python script
     
-    - Path: `blender/tests/utils/batch_load_blendfiles.py`
+    - Path: `tests/python/assets/remote_library_listing/listing_downloader_test.py`
 ## Approach
 Automated execution using the provided Python script. The script will be run against a temporary directory where it creates and reads JSON files simulating remote asset library data. Observations will focus on whether Blender correctly sanitizes bad file paths (absolute paths, UNC paths, directory traversal attempts), fixes incorrect asset counts, and only rewrites the JSON file when necessary. The test will verify both in‑memory changes and the final written file, ensuring no leftover files remain after execution.
 ## Test Artifact
