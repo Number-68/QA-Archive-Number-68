@@ -17,7 +17,7 @@ Ensure that writing remote‑library asset catalogs produces a correctly formatt
     
 - Cleanup of generated files after execution.
 ### Out of Scope
-- - Empty catalog lists.
+- Empty catalog lists.
     
 - Problematic or invalid characters (e.g., emojis, tabs).
     
@@ -33,7 +33,7 @@ Ensure that writing remote‑library asset catalogs produces a correctly formatt
     
 - Negative or malformed inputs.
 ## Environment
-- - **OS:** Ubuntu 22.04 LTS (VM)
+- **OS:** Ubuntu 22.04 LTS (VM)
     
 - **CPU:** 4 cores (AMD Ryzen 5 2400G)
     
