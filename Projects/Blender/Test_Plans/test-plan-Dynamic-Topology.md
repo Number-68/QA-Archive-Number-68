@@ -17,7 +17,7 @@ Ensure that the detail flood fill operator subdivides the mesh so that all edges
     
 - Verification that all edges satisfy the length constraints.
 ### Out of Scope
-- - Other brush types (Smooth, Mask, Crease, etc.).
+- Other brush types (Smooth, Mask, Crease, etc.).
     
 - Different stroke shapes or multiple strokes.
     
