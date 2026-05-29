@@ -36,8 +36,8 @@ Ensure that `ConfigFile` correctly parses human‑friendly INI syntax, gracefu
     
 - **Execution Method:** Automated C++ file
     
-	- **Test Path:** `godot/tests/core/input/test_config_file.cpp`
+	- **Test Path:** `godot/tests/core/io/test_config_file.cpp`
 ## Approach
 The test uses Godot’s built‑in doctest framework. Each `TEST_CASE` creates a `ConfigFile` instance. The first test parses a hand‑crafted multi‑line string, then asserts each retrieved value using `CHECK_MESSAGE`. The second test attempts to parse a malformed string and checks that the error code is `ERR_PARSE_ERROR` (printing of errors is temporarily disabled). The third test sets values programmatically, saves to a temporary file (`config.ini` in `TEMP` on Windows, `/tmp/` otherwise), reads the file back, and compares the content against an expected string literal. All tests run automatically via Godot’s `--test` command.
 ## Test Artifact
-- **Automated Script:** `godot/tests/core/input/test_config_file.cpp`
+- **Automated Script:** `godot/tests/core/io/test_config_file.cpp`
