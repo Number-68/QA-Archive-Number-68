@@ -38,8 +38,8 @@ Ensure that enabling a parent collection in a view layer correctly allows object
     
 - **Execution Method:** Automated Python test
     
-	- **Test Path:** `blender/tests/python/view_layer/test_evaluation_selectability_b.py`
+	- **Test Path:** `blender/tests/python/view_layer/test_evaluation_selectability_c.py`
 ## Approach
 The test uses the custom `ViewLayerTesting` base class (extending `unittest.TestCase`). It creates a new scene, a cube, a fresh view layer, builds a collection hierarchy, links collections, enables the parent collection, updates the dependency graph, selects the cube, and asserts visibility and selection. The test runs headlessly via Blender’s background mode.
 ## Test Artifact
-- **Automated Script:** `blender/tests/python/view_layer/test_evaluation_selectability_b.py`
+- **Automated Script:** `blender/tests/python/view_layer/test_evaluation_selectability_c.py`
