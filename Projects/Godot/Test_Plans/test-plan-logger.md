@@ -6,7 +6,7 @@ This test suite validates Godot’s `RotatedFileLogger` (which rotates log fil
 Ensure `RotatedFileLogger` correctly creates `godot.log` on first write, that rotating after multiple writes produces the expected number of backup files (godot.log, godot.log.1, godot.log.2, etc.) with the expected content order, that exceeding the maximum count removes the oldest backup, and that `CompositeLogger` forwards `logf` calls to every registered logger, writing identical content to each log file.
 ## Scope
 ### In Scope
-- - Single log file creation and content write.
+- Single log file creation and content write.
     
 - Log rotation with max files = 3: after 3 writes, files `godot.log`, `godot.log.1`, `godot.log.2` exist.
     
