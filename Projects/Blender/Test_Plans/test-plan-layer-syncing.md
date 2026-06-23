@@ -44,7 +44,7 @@ Ensure that the dependency graph and collection hierarchy remain consistent afte
     
 - **Execution Method:** Automated Python test
     
-	- **Test Path:** `blender/tests/python/view_layer/layer_syncing.py`
+	- **Test Path:** `blender/tests/python/view_layer/test_layer_syncing.py`
 ## Approach
 The test uses the custom `ViewLayerTesting` base class. A helper method `do_syncing` handles the common setup: loading the test file, building collections, linking objects, performing the specified unlink operation, saving to a temporary file, querying the scene structure, dumping to JSON, and comparing against a reference JSON file using `compare_files()`. The test runs headlessly via Blender's background mode.
 ## Test Artifact
